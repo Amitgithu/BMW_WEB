@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url("BMW1.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    width:1200px;
+    margin:auto;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+.test{
+    width:190px;
+    height: 45px;
+    color:white;
+    background-color: black;
+    border:none;
+    letter-spacing:1px;
+    font-size:15px;
+    border-radius: 30px;
+}
+.home{
+    margin-top: 90px;
+    margin-left: 140px;
+    width:500px;
+    height:400px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+h2{
+    color:red;
+    font-size: 40px;
+}
+
+.img{
+    position:absolute;
+    right:90px;
+    top:100px;
+}
+.red{
+    width:40px;
+    height:40px;
+    background-color:red;
+    border:none;
+    border-radius:20px;
+    margin:5px;
+}
+.blue{
+    width:40px;
+    height:40px;
+    background-color:blue;
+    border:none;
+    border-radius:20px;
+    margin:5px;
+}
+.black{
+    width:40px;
+    height:40px;
+    background-color:black;
+    border:none;
+    border-radius:20px;
+    margin-top:15px;
+}
+h1{
+    font-size: 110px;
+}
+span{
+    font-size: 20px;
+}
+
+@media all and (max-width:768px){
+
+    body{
+        background-image: url("BMW2.png");
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size: cover;
+    }
+}
